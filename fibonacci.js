@@ -9,10 +9,10 @@ const fibonacci = (num, memo) => {
 
 // Recursion
 
-// const fib = n => {
-//   if (num <= 1) return 1;
-
-//   return fib(n - 1) + fib(n - 2);
-// };
+const fib = n => {
+  if (n <= 1) return 1;
+  return fib(n - 1) + fib(n - 2);
+};
 
 console.log(fibonacci(10));
+console.log(fib(10));
