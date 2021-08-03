@@ -16,7 +16,6 @@ const isPalindrome$ = string => {
     .join('');
 
   if (string === str) return true;
-  else return false;
 };
 
 console.log(isPalindrome$('GYU'));
