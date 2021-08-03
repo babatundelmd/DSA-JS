@@ -1,6 +1,4 @@
 function miniMaxSum(input) {
-  // Write your code here
-
   var arrClone1 = input.slice();
   var arrClone2 = input.slice();
 
