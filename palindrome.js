@@ -7,7 +7,6 @@ function isPalindrome(string) {
   return true;
 }
 
-// console.log(isPalindrome('CAT'));
 
 const isPalindrome$ = string => {
   const str = string
