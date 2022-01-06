@@ -7,16 +7,22 @@
 //   return true;
 // }
 
-
-// const isPalindrome$ = string => {
-//   const str = string
-//     .split('')
-//     .reverse()
-//     .join('');
+// const isPalindrome$ = (string) => {
+//   const str = string.split('').reverse().join('');
 
 //   if (string === str) return true;
+//   else return false
 // };
 
 // console.log(isPalindrome$('GYU'));
 
- console.log('Good')
+function reverse(str) {
+  let reversed = '';
+  for (let character of str) {
+    reversed = character + reversed;
+  }
+  return reversed;
+}
+
+
+console.log(reverse('Babatunde'))
